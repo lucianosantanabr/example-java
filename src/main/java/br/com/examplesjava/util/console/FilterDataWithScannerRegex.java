@@ -1,0 +1,1 @@
+package br.com.examplesjava.util.console;import java.util.Scanner;public class FilterDataWithScannerRegex {  public static void main(String[] args) {    Scanner scanner = new Scanner("a1,b2,c3,d4,e5,f6");    scanner.useDelimiter("\\d,?");    while (scanner.hasNext()) {      System.out.println(scanner.next());    }    scanner.close();  }}

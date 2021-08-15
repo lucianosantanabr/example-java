@@ -1,0 +1,1 @@
+package br.com.examplesjava.enuns;import lombok.AllArgsConstructor;import lombok.Getter;@AllArgsConstructorpublic enum TypeFile {  XML("xml"),  CSV("csv"),  TXT("txt");  private @Getter String ext;}

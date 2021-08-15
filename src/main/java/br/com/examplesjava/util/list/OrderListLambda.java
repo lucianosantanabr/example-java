@@ -1,0 +1,1 @@
+package br.com.examplesjava.util.list;import java.util.Arrays;import java.util.List;public class OrderListLambda {  public static void main(String[] args) {    List<String> names = Arrays.asList("Gustavo", "Daiana", "Wellington", "José", "Julia");    names.sort(String::compareTo);    names.forEach(System.out::println);  }}
