@@ -14,7 +14,9 @@
     <junit.vintage.version>5.7.2</junit.vintage.version>
     <junit-platform.version>1.7.2</junit-platform.version>
     <junit-jupiter.version>5.7.2</junit-jupiter.version>
-
+    <modelmapper.version>2.4.2</modelmapper.version>
+    <commons-net.version>3.6</commons-net.version>
+    <sshj.version>0.27.0</sshj.version>
   </properties>
 
   <dependencies>
@@ -32,11 +34,31 @@
       <version>1.7.30</version>
     </dependency>
 
+    <!-- FTP -->
+    <dependency>
+      <groupId>commons-net</groupId>
+      <artifactId>commons-net</artifactId>
+      <version>${commons-net.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>com.hierynomus</groupId>
+      <artifactId>sshj</artifactId>
+      <version>${sshj.version}</version>
+    </dependency>
+
     <!--CSV-->
     <dependency>
       <groupId>com.opencsv</groupId>
       <artifactId>opencsv</artifactId>
       <version>5.4</version>
+    </dependency>
+
+    <!--ModelMapper-->
+    <dependency>
+      <groupId>org.modelmapper</groupId>
+      <artifactId>modelmapper</artifactId>
+      <version>${modelmapper.version}</version>
     </dependency>
 
     <dependency>
