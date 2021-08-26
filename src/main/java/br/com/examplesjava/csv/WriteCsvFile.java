@@ -70,5 +70,4 @@ public class WriteCsvFile {
     }
     return fieldList.toArray(String[]::new);
   }
-
 }

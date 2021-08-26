@@ -35,5 +35,4 @@ public class CustomMappingStrategy<T> extends ColumnPositionMappingStrategy<T> {
         beanField.getField().getDeclaredAnnotationsByType(CsvBindByName.class)[0];
     return bindByNameAnnotation.column();
   }
-
 }
